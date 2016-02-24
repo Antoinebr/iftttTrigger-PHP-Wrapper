@@ -2,14 +2,16 @@
 
 
 
-```
+```php
+<?php
+
 // Require the class !
 require('iftttTrigger.php');
 
 
 // Set the infos
 $actionName = "contact_form";
-$secretKey = ""Wz-CX84f9827SIi";
+$secretKey = "Wz-CX84f9827SIi";
 
 
 // The extras values that you can pass
@@ -20,7 +22,7 @@ $postData = array(
 );
 
 // Instanciate
-$contactFrom = new iftttTrigger("contact_form","Wz-CX84f9827SIi",$postData);
+$contactFrom = new iftttTrigger($actionName,$secretKey,$postData);
 
 // Pull the trigger !
 $contactFrom->pullTrigger();
