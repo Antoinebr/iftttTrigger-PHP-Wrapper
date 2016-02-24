@@ -1,0 +1,27 @@
+# Apple crap
+.DS_Store
+
+# Dploy
+dploy.yaml
+
+# Sass cache folder
+.sass-cache
+
+# Node / Grunt
+node_modules
+
+# Ftppass
+.ftppass
+
+# Logs
+logs
+*.log
+
+
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+
+
+save
+.rev
